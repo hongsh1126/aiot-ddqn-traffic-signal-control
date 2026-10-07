@@ -1,0 +1,315 @@
+{
+  "single": {
+    "Low": {
+      "Fixed-Time": {
+        "avg_wait_s": 28.001577287066247,
+        "queue_veh": 10.0,
+        "throughput_vph": 1426.5,
+        "emission_g_per_veh": 36.85820438587083,
+        "n_completed": 317
+      },
+      "Actuated": {
+        "avg_wait_s": 12.676100628930818,
+        "queue_veh": 200.0,
+        "throughput_vph": 715.5,
+        "emission_g_per_veh": 374.1452211949644,
+        "n_completed": 159
+      },
+      "MaxPressure": {
+        "avg_wait_s": 146.13903743315507,
+        "queue_veh": 158.0,
+        "throughput_vph": 841.5,
+        "emission_g_per_veh": 318.3240395346925,
+        "n_completed": 187
+      },
+      "DQN": {
+        "avg_wait_s": 80.10036496350365,
+        "queue_veh": 46.0,
+        "throughput_vph": 1233.0,
+        "emission_g_per_veh": 88.43993797316506,
+        "n_completed": 274
+      },
+      "IntelliLight": {
+        "avg_wait_s": 53.8961937716263,
+        "queue_veh": 39.0,
+        "throughput_vph": 1300.5,
+        "emission_g_per_veh": 66.2149561469581,
+        "n_completed": 289
+      },
+      "AIoT-DDQN": {
+        "avg_wait_s": 80.83732876712328,
+        "queue_veh": 40.0,
+        "throughput_vph": 1314.0,
+        "emission_g_per_veh": 88.07781068249236,
+        "n_completed": 292
+      }
+    },
+    "Medium": {
+      "Fixed-Time": {
+        "avg_wait_s": 35.78541226215645,
+        "queue_veh": 31.0,
+        "throughput_vph": 2128.5,
+        "emission_g_per_veh": 45.4311158240356,
+        "n_completed": 473
+      },
+      "Actuated": {
+        "avg_wait_s": 23.233905579399142,
+        "queue_veh": 313.0,
+        "throughput_vph": 1048.5,
+        "emission_g_per_veh": 390.3348532499692,
+        "n_completed": 233
+      },
+      "MaxPressure": {
+        "avg_wait_s": 90.45878136200717,
+        "queue_veh": 258.0,
+        "throughput_vph": 1255.5,
+        "emission_g_per_veh": 291.4358958519444,
+        "n_completed": 279
+      },
+      "DQN": {
+        "avg_wait_s": 114.89078498293516,
+        "queue_veh": 220.0,
+        "throughput_vph": 1318.5,
+        "emission_g_per_veh": 223.0233180225103,
+        "n_completed": 293
+      },
+      "IntelliLight": {
+        "avg_wait_s": 81.1996855345912,
+        "queue_veh": 197.0,
+        "throughput_vph": 1431.0,
+        "emission_g_per_veh": 188.0795388096376,
+        "n_completed": 318
+      },
+      "AIoT-DDQN": {
+        "avg_wait_s": 110.10857142857142,
+        "queue_veh": 158.0,
+        "throughput_vph": 1575.0,
+        "emission_g_per_veh": 156.3281876041917,
+        "n_completed": 350
+      }
+    },
+    "High": {
+      "Fixed-Time": {
+        "avg_wait_s": 62.14874551971326,
+        "queue_veh": 100.0,
+        "throughput_vph": 2511.0,
+        "emission_g_per_veh": 76.04286809139458,
+        "n_completed": 558
+      },
+      "Actuated": {
+        "avg_wait_s": 31.148026315789473,
+        "queue_veh": 389.0,
+        "throughput_vph": 1368.0,
+        "emission_g_per_veh": 393.6900273442561,
+        "n_completed": 304
+      },
+      "MaxPressure": {
+        "avg_wait_s": 112.30744336569579,
+        "queue_veh": 390.0,
+        "throughput_vph": 1390.5,
+        "emission_g_per_veh": 386.1129406147899,
+        "n_completed": 309
+      },
+      "DQN": {
+        "avg_wait_s": 153.41358024691357,
+        "queue_veh": 344.0,
+        "throughput_vph": 1458.0,
+        "emission_g_per_veh": 310.31317781543027,
+        "n_completed": 324
+      },
+      "IntelliLight": {
+        "avg_wait_s": 80.88343558282209,
+        "queue_veh": 349.0,
+        "throughput_vph": 1467.0,
+        "emission_g_per_veh": 313.9868766014593,
+        "n_completed": 326
+      },
+      "AIoT-DDQN": {
+        "avg_wait_s": 153.82957746478874,
+        "queue_veh": 304.0,
+        "throughput_vph": 1597.5,
+        "emission_g_per_veh": 263.2045212254225,
+        "n_completed": 355
+      }
+    }
+  },
+  "grid": {
+    "Fixed-Time": {
+      "avg_wait_s": 48.51924975320829,
+      "queue_veh": 88.0,
+      "throughput_vph": 4558.5,
+      "emission_g_per_veh": 56.18075219377966,
+      "n_completed": 1013
+    },
+    "Actuated": {
+      "avg_wait_s": 22.385964912280702,
+      "queue_veh": 653.0,
+      "throughput_vph": 2308.5,
+      "emission_g_per_veh": 389.2956392447332,
+      "n_completed": 513
+    },
+    "MaxPressure": {
+      "avg_wait_s": 31.522058823529413,
+      "queue_veh": 688.0,
+      "throughput_vph": 2142.0,
+      "emission_g_per_veh": 437.7199769216225,
+      "n_completed": 476
+    },
+    "DQN": {
+      "avg_wait_s": 140.75,
+      "queue_veh": 447.0,
+      "throughput_vph": 3051.0,
+      "emission_g_per_veh": 255.83947225789439,
+      "n_completed": 678
+    },
+    "IntelliLight": {
+      "avg_wait_s": 122.49018126888218,
+      "queue_veh": 452.0,
+      "throughput_vph": 2979.0,
+      "emission_g_per_veh": 228.25058927205768,
+      "n_completed": 662
+    },
+    "AIoT-DDQN": {
+      "avg_wait_s": 149.04388489208634,
+      "queue_veh": 416.0,
+      "throughput_vph": 3127.5,
+      "emission_g_per_veh": 224.2218529242319,
+      "n_completed": 695
+    }
+  },
+  "v2x": {
+    "Ideal": {
+      "delay_ms": 0.0,
+      "loss": 0.0,
+      "avg_wait_s": 138.14747191011236,
+      "queue_veh": 197.0,
+      "throughput_vph": 1602.0,
+      "emission_g_per_veh": 194.33698583645005,
+      "n_completed": 356
+    },
+    "Low load": {
+      "delay_ms": 8.0,
+      "loss": 0.02,
+      "avg_wait_s": 147.18502824858757,
+      "queue_veh": 205.0,
+      "throughput_vph": 1593.0,
+      "emission_g_per_veh": 209.76164234082913,
+      "n_completed": 354
+    },
+    "Medium load": {
+      "delay_ms": 25.0,
+      "loss": 0.1,
+      "avg_wait_s": 120.96732954545455,
+      "queue_veh": 206.0,
+      "throughput_vph": 1584.0,
+      "emission_g_per_veh": 199.9909650705467,
+      "n_completed": 352
+    },
+    "High load": {
+      "delay_ms": 100.0,
+      "loss": 0.3,
+      "avg_wait_s": 145.83673469387756,
+      "queue_veh": 202.0,
+      "throughput_vph": 1543.5,
+      "emission_g_per_veh": 225.68553535104292,
+      "n_completed": 343
+    }
+  },
+  "state_ablation": {
+    "RSU only (loop)": {
+      "avg_wait_s": 174.16268656716417,
+      "queue_veh": 246.0,
+      "throughput_vph": 1507.5,
+      "emission_g_per_veh": 275.91545448776816,
+      "n_completed": 335
+    },
+    "Loop + queue": {
+      "avg_wait_s": 135.3735632183908,
+      "queue_veh": 211.0,
+      "throughput_vph": 1566.0,
+      "emission_g_per_veh": 203.591278077601,
+      "n_completed": 348
+    },
+    "Full smart pole": {
+      "avg_wait_s": 116.41480446927375,
+      "queue_veh": 208.0,
+      "throughput_vph": 1611.0,
+      "emission_g_per_veh": 198.00588823305574,
+      "n_completed": 358
+    },
+    "No-phase-context": {
+      "avg_wait_s": 132.71267605633804,
+      "queue_veh": 208.0,
+      "throughput_vph": 1597.5,
+      "emission_g_per_veh": 198.79867042842764,
+      "n_completed": 355
+    }
+  },
+  "reward_ablation": {
+    "Wait only": {
+      "weights": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_wait_s": 98.1767955801105,
+      "queue_veh": 173.0,
+      "throughput_vph": 1629.0,
+      "emission_g_per_veh": 171.37468909794964,
+      "n_completed": 362
+    },
+    "Wait+Queue": {
+      "weights": [
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ],
+      "avg_wait_s": 133.44176136363637,
+      "queue_veh": 181.0,
+      "throughput_vph": 1584.0,
+      "emission_g_per_veh": 190.62116443382118,
+      "n_completed": 352
+    },
+    "Default": {
+      "weights": [
+        0.4,
+        0.3,
+        0.2,
+        0.1
+      ],
+      "avg_wait_s": 122.82821229050279,
+      "queue_veh": 183.0,
+      "throughput_vph": 1611.0,
+      "emission_g_per_veh": 194.43329722061205,
+      "n_completed": 358
+    },
+    "Wait+Throughput": {
+      "weights": [
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "avg_wait_s": 113.61350574712644,
+      "queue_veh": 181.0,
+      "throughput_vph": 1566.0,
+      "emission_g_per_veh": 184.33870911055425,
+      "n_completed": 348
+    },
+    "Emission-heavy": {
+      "weights": [
+        0.3,
+        0.2,
+        0.2,
+        0.3
+      ],
+      "avg_wait_s": 116.56767955801105,
+      "queue_veh": 180.0,
+      "throughput_vph": 1629.0,
+      "emission_g_per_veh": 171.18841973836695,
+      "n_completed": 362
+    }
+  }
+}

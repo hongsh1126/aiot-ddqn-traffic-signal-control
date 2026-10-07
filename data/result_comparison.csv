@@ -1,0 +1,194 @@
+metric_path,manuscript_source,current_rerun,difference
+single/Low/Fixed-Time/avg_wait_s,28.001577287066247,28.001577287066247,0.0
+single/Low/Fixed-Time/queue_veh,10.0,10.0,0.0
+single/Low/Fixed-Time/throughput_vph,1426.5,1426.5,0.0
+single/Low/Fixed-Time/emission_g_per_veh,36.85820438587083,36.85820438587083,0.0
+single/Low/Fixed-Time/n_completed,317,317,0
+single/Low/Actuated/avg_wait_s,12.676100628930818,12.676100628930818,0.0
+single/Low/Actuated/queue_veh,200.0,200.0,0.0
+single/Low/Actuated/throughput_vph,715.5,715.5,0.0
+single/Low/Actuated/emission_g_per_veh,374.1452211949644,374.1452211949644,0.0
+single/Low/Actuated/n_completed,159,159,0
+single/Low/MaxPressure/avg_wait_s,146.13903743315507,146.13903743315507,0.0
+single/Low/MaxPressure/queue_veh,158.0,158.0,0.0
+single/Low/MaxPressure/throughput_vph,841.5,841.5,0.0
+single/Low/MaxPressure/emission_g_per_veh,318.3240395346925,318.3240395346925,0.0
+single/Low/MaxPressure/n_completed,187,187,0
+single/Low/DQN/avg_wait_s,80.10036496350365,80.10036496350365,0.0
+single/Low/DQN/queue_veh,46.0,46.0,0.0
+single/Low/DQN/throughput_vph,1233.0,1233.0,0.0
+single/Low/DQN/emission_g_per_veh,88.43993797316506,88.43993797316506,0.0
+single/Low/DQN/n_completed,274,274,0
+single/Low/IntelliLight/avg_wait_s,49.30434782608695,53.8961937716263,4.591845945539347
+single/Low/IntelliLight/queue_veh,38.0,39.0,1.0
+single/Low/IntelliLight/throughput_vph,1345.5,1300.5,-45.0
+single/Low/IntelliLight/emission_g_per_veh,60.797438679515274,66.2149561469581,5.417517467442828
+single/Low/IntelliLight/n_completed,299,289,-10
+single/Low/AIoT-DDQN/avg_wait_s,56.503367003367,80.83732876712328,24.333961763756278
+single/Low/AIoT-DDQN/queue_veh,38.0,40.0,2.0
+single/Low/AIoT-DDQN/throughput_vph,1336.5,1314.0,-22.5
+single/Low/AIoT-DDQN/emission_g_per_veh,70.31978426892009,88.07781068249236,17.758026413572267
+single/Low/AIoT-DDQN/n_completed,297,292,-5
+single/Medium/Fixed-Time/avg_wait_s,35.78541226215645,35.78541226215645,0.0
+single/Medium/Fixed-Time/queue_veh,31.0,31.0,0.0
+single/Medium/Fixed-Time/throughput_vph,2128.5,2128.5,0.0
+single/Medium/Fixed-Time/emission_g_per_veh,45.4311158240356,45.4311158240356,0.0
+single/Medium/Fixed-Time/n_completed,473,473,0
+single/Medium/Actuated/avg_wait_s,23.233905579399142,23.233905579399142,0.0
+single/Medium/Actuated/queue_veh,313.0,313.0,0.0
+single/Medium/Actuated/throughput_vph,1048.5,1048.5,0.0
+single/Medium/Actuated/emission_g_per_veh,390.3348532499692,390.3348532499692,0.0
+single/Medium/Actuated/n_completed,233,233,0
+single/Medium/MaxPressure/avg_wait_s,90.45878136200717,90.45878136200717,0.0
+single/Medium/MaxPressure/queue_veh,258.0,258.0,0.0
+single/Medium/MaxPressure/throughput_vph,1255.5,1255.5,0.0
+single/Medium/MaxPressure/emission_g_per_veh,291.4358958519444,291.4358958519444,0.0
+single/Medium/MaxPressure/n_completed,279,279,0
+single/Medium/DQN/avg_wait_s,142.00462962962962,114.89078498293516,-27.11384464669446
+single/Medium/DQN/queue_veh,182.0,220.0,38.0
+single/Medium/DQN/throughput_vph,1458.0,1318.5,-139.5
+single/Medium/DQN/emission_g_per_veh,190.44633233086793,223.0233180225103,32.57698569164236
+single/Medium/DQN/n_completed,324,293,-31
+single/Medium/IntelliLight/avg_wait_s,126.31873111782477,81.1996855345912,-45.11904558323357
+single/Medium/IntelliLight/queue_veh,176.0,197.0,21.0
+single/Medium/IntelliLight/throughput_vph,1489.5,1431.0,-58.5
+single/Medium/IntelliLight/emission_g_per_veh,185.1931146245748,188.0795388096376,2.8864241850627934
+single/Medium/IntelliLight/n_completed,331,318,-13
+single/Medium/AIoT-DDQN/avg_wait_s,117.99712643678161,110.10857142857142,-7.88855500821019
+single/Medium/AIoT-DDQN/queue_veh,167.0,158.0,-9.0
+single/Medium/AIoT-DDQN/throughput_vph,1566.0,1575.0,9.0
+single/Medium/AIoT-DDQN/emission_g_per_veh,166.01424440631578,156.3281876041917,-9.686056802124085
+single/Medium/AIoT-DDQN/n_completed,348,350,2
+single/High/Fixed-Time/avg_wait_s,62.14874551971326,62.14874551971326,0.0
+single/High/Fixed-Time/queue_veh,100.0,100.0,0.0
+single/High/Fixed-Time/throughput_vph,2511.0,2511.0,0.0
+single/High/Fixed-Time/emission_g_per_veh,76.04286809139458,76.04286809139458,0.0
+single/High/Fixed-Time/n_completed,558,558,0
+single/High/Actuated/avg_wait_s,31.148026315789473,31.148026315789473,0.0
+single/High/Actuated/queue_veh,389.0,389.0,0.0
+single/High/Actuated/throughput_vph,1368.0,1368.0,0.0
+single/High/Actuated/emission_g_per_veh,393.6900273442561,393.6900273442561,0.0
+single/High/Actuated/n_completed,304,304,0
+single/High/MaxPressure/avg_wait_s,112.30744336569579,112.30744336569579,0.0
+single/High/MaxPressure/queue_veh,390.0,390.0,0.0
+single/High/MaxPressure/throughput_vph,1390.5,1390.5,0.0
+single/High/MaxPressure/emission_g_per_veh,386.1129406147899,386.1129406147899,0.0
+single/High/MaxPressure/n_completed,309,309,0
+single/High/DQN/avg_wait_s,165.546875,153.41358024691357,-12.133294753086432
+single/High/DQN/queue_veh,302.0,344.0,42.0
+single/High/DQN/throughput_vph,1584.0,1458.0,-126.0
+single/High/DQN/emission_g_per_veh,275.10362504792886,310.31317781543027,35.20955276750141
+single/High/DQN/n_completed,352,324,-28
+single/High/IntelliLight/avg_wait_s,83.71511627906976,80.88343558282209,-2.8316806962476733
+single/High/IntelliLight/queue_veh,342.0,349.0,7.0
+single/High/IntelliLight/throughput_vph,1548.0,1467.0,-81.0
+single/High/IntelliLight/emission_g_per_veh,297.29861683836447,313.9868766014593,16.688259763094834
+single/High/IntelliLight/n_completed,344,326,-18
+single/High/AIoT-DDQN/avg_wait_s,130.89488636363637,153.82957746478874,22.934691101152367
+single/High/AIoT-DDQN/queue_veh,319.0,304.0,-15.0
+single/High/AIoT-DDQN/throughput_vph,1584.0,1597.5,13.5
+single/High/AIoT-DDQN/emission_g_per_veh,281.57441804726426,263.2045212254225,-18.369896821841735
+single/High/AIoT-DDQN/n_completed,352,355,3
+grid/Fixed-Time/avg_wait_s,48.51924975320829,48.51924975320829,0.0
+grid/Fixed-Time/queue_veh,88.0,88.0,0.0
+grid/Fixed-Time/throughput_vph,4558.5,4558.5,0.0
+grid/Fixed-Time/emission_g_per_veh,56.18075219377966,56.18075219377966,0.0
+grid/Fixed-Time/n_completed,1013,1013,0
+grid/Actuated/avg_wait_s,22.385964912280702,22.385964912280702,0.0
+grid/Actuated/queue_veh,653.0,653.0,0.0
+grid/Actuated/throughput_vph,2308.5,2308.5,0.0
+grid/Actuated/emission_g_per_veh,389.2956392447332,389.2956392447332,0.0
+grid/Actuated/n_completed,513,513,0
+grid/MaxPressure/avg_wait_s,31.522058823529413,31.522058823529413,0.0
+grid/MaxPressure/queue_veh,688.0,688.0,0.0
+grid/MaxPressure/throughput_vph,2142.0,2142.0,0.0
+grid/MaxPressure/emission_g_per_veh,437.7199769216225,437.7199769216225,0.0
+grid/MaxPressure/n_completed,476,476,0
+grid/DQN/avg_wait_s,142.89705882352942,140.75,-2.14705882352942
+grid/DQN/queue_veh,450.0,447.0,-3.0
+grid/DQN/throughput_vph,3060.0,3051.0,-9.0
+grid/DQN/emission_g_per_veh,257.0492277215348,255.83947225789439,-1.2097554636404197
+grid/DQN/n_completed,680,678,-2
+grid/IntelliLight/avg_wait_s,123.07771260997067,122.49018126888218,-0.5875313410884928
+grid/IntelliLight/queue_veh,436.0,452.0,16.0
+grid/IntelliLight/throughput_vph,3069.0,2979.0,-90.0
+grid/IntelliLight/emission_g_per_veh,219.56102495537607,228.25058927205768,8.689564316681611
+grid/IntelliLight/n_completed,682,662,-20
+grid/AIoT-DDQN/avg_wait_s,144.2919034090909,149.04388489208634,4.751981482995433
+grid/AIoT-DDQN/queue_veh,417.0,416.0,-1.0
+grid/AIoT-DDQN/throughput_vph,3168.0,3127.5,-40.5
+grid/AIoT-DDQN/emission_g_per_veh,214.8805945179879,224.2218529242319,9.341258406244009
+grid/AIoT-DDQN/n_completed,704,695,-9
+v2x/Ideal/delay_ms,0.0,0.0,0.0
+v2x/Ideal/loss,0.0,0.0,0.0
+v2x/Ideal/avg_wait_s,135.33090379008746,138.14747191011236,2.816568120024897
+v2x/Ideal/queue_veh,205.0,197.0,-8.0
+v2x/Ideal/throughput_vph,1543.5,1602.0,58.5
+v2x/Ideal/emission_g_per_veh,210.96927034691822,194.33698583645005,-16.632284510468168
+v2x/Ideal/n_completed,343,356,13
+v2x/Low load/delay_ms,8.0,8.0,0.0
+v2x/Low load/loss,0.02,0.02,0.0
+v2x/Low load/avg_wait_s,138.1537356321839,147.18502824858757,9.031292616403675
+v2x/Low load/queue_veh,215.0,205.0,-10.0
+v2x/Low load/throughput_vph,1566.0,1593.0,27.0
+v2x/Low load/emission_g_per_veh,219.3911570579556,209.76164234082913,-9.629514717126483
+v2x/Low load/n_completed,348,354,6
+v2x/Medium load/delay_ms,25.0,25.0,0.0
+v2x/Medium load/loss,0.1,0.1,0.0
+v2x/Medium load/avg_wait_s,155.9956772334294,120.96732954545455,-35.02834768797486
+v2x/Medium load/queue_veh,198.0,206.0,8.0
+v2x/Medium load/throughput_vph,1561.5,1584.0,22.5
+v2x/Medium load/emission_g_per_veh,213.25959175656268,199.9909650705467,-13.268626686015978
+v2x/Medium load/n_completed,347,352,5
+v2x/High load/delay_ms,100.0,100.0,0.0
+v2x/High load/loss,0.3,0.3,0.0
+v2x/High load/avg_wait_s,143.16811594202898,145.83673469387756,2.6686187518485838
+v2x/High load/queue_veh,205.0,202.0,-3.0
+v2x/High load/throughput_vph,1552.5,1543.5,-9.0
+v2x/High load/emission_g_per_veh,217.17640953358682,225.68553535104292,8.509125817456095
+v2x/High load/n_completed,345,343,-2
+state_ablation/RSU only (loop)/avg_wait_s,174.18018018018017,174.16268656716417,-0.01749361301600061
+state_ablation/RSU only (loop)/queue_veh,249.0,246.0,-3.0
+state_ablation/RSU only (loop)/throughput_vph,1498.5,1507.5,9.0
+state_ablation/RSU only (loop)/emission_g_per_veh,278.23598597743324,275.91545448776816,-2.320531489665086
+state_ablation/RSU only (loop)/n_completed,333,335,2
+state_ablation/Loop + queue/avg_wait_s,138.5693641618497,135.3735632183908,-3.1958009434588917
+state_ablation/Loop + queue/queue_veh,225.0,211.0,-14.0
+state_ablation/Loop + queue/throughput_vph,1557.0,1566.0,9.0
+state_ablation/Loop + queue/emission_g_per_veh,226.4031017702815,203.591278077601,-22.81182369268049
+state_ablation/Loop + queue/n_completed,346,348,2
+state_ablation/Full smart pole/avg_wait_s,151.3314447592068,116.41480446927375,-34.91664028993304
+state_ablation/Full smart pole/queue_veh,209.0,208.0,-1.0
+state_ablation/Full smart pole/throughput_vph,1588.5,1611.0,22.5
+state_ablation/Full smart pole/emission_g_per_veh,206.89721321270815,198.00588823305574,-8.89132497965241
+state_ablation/Full smart pole/n_completed,353,358,5
+state_ablation/No-phase-context/avg_wait_s,113.47058823529412,132.71267605633804,19.242087821043924
+state_ablation/No-phase-context/queue_veh,201.0,208.0,7.0
+state_ablation/No-phase-context/throughput_vph,1606.5,1597.5,-9.0
+state_ablation/No-phase-context/emission_g_per_veh,197.06616192763434,198.79867042842764,1.7325085007933012
+state_ablation/No-phase-context/n_completed,357,355,-2
+reward_ablation/Wait only/avg_wait_s,134.98833819241983,98.1767955801105,-36.81154261230934
+reward_ablation/Wait only/queue_veh,178.0,173.0,-5.0
+reward_ablation/Wait only/throughput_vph,1543.5,1629.0,85.5
+reward_ablation/Wait only/emission_g_per_veh,182.0836551231663,171.37468909794964,-10.708966025216654
+reward_ablation/Wait only/n_completed,343,362,19
+reward_ablation/Wait+Queue/avg_wait_s,161.53362573099415,133.44176136363637,-28.091864367357772
+reward_ablation/Wait+Queue/queue_veh,178.0,181.0,3.0
+reward_ablation/Wait+Queue/throughput_vph,1539.0,1584.0,45.0
+reward_ablation/Wait+Queue/emission_g_per_veh,208.46866216653092,190.62116443382118,-17.84749773270974
+reward_ablation/Wait+Queue/n_completed,342,352,10
+reward_ablation/Default/avg_wait_s,131.77605633802816,122.82821229050279,-8.947844047525365
+reward_ablation/Default/queue_veh,187.0,183.0,-4.0
+reward_ablation/Default/throughput_vph,1597.5,1611.0,13.5
+reward_ablation/Default/emission_g_per_veh,198.29506443124313,194.43329722061205,-3.8617672106310863
+reward_ablation/Default/n_completed,355,358,3
+reward_ablation/Wait+Throughput/avg_wait_s,121.78735632183908,113.61350574712644,-8.173850574712645
+reward_ablation/Wait+Throughput/queue_veh,175.0,181.0,6.0
+reward_ablation/Wait+Throughput/throughput_vph,1566.0,1566.0,0.0
+reward_ablation/Wait+Throughput/emission_g_per_veh,184.59286967941105,184.33870911055425,-0.25416056885680405
+reward_ablation/Wait+Throughput/n_completed,348,348,0
+reward_ablation/Emission-heavy/avg_wait_s,139.3429003021148,116.56767955801105,-22.77522074410375
+reward_ablation/Emission-heavy/queue_veh,205.0,180.0,-25.0
+reward_ablation/Emission-heavy/throughput_vph,1489.5,1629.0,139.5
+reward_ablation/Emission-heavy/emission_g_per_veh,212.97295617815502,171.18841973836695,-41.78453643978807
+reward_ablation/Emission-heavy/n_completed,331,362,31

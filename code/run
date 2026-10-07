@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# Code Ocean capsule entry point for ACCESS3731935.
+# Runs the lightweight surrogate pipeline and collects all outputs into /results.
+#
+# NOTE (see README): the current reruns reproduce the resubmission-ZIP JSON
+# (results_aiot.json), NOT every manuscript-source archived RL value. RL scalars
+# can vary across environments. This is disclosed in the paper (Sec. IV-J).
+set -euo pipefail
+
+CODE_DIR="$(cd "$(dirname "$0")" && pwd)"
+CAP_ROOT="$(dirname "$CODE_DIR")"
+RESULTS_DIR="${CAP_ROOT}/results"
+FIG_DIR="${CAP_ROOT}/figures"
+mkdir -p "$RESULTS_DIR" "$FIG_DIR"
+cd "$CODE_DIR"
+
+echo "[1/4] Main campaign (run_experiments.py) ..."
+python run_experiments.py
+
+echo "[2/4] Ten-seed extension (run_multiseed.py) ..."
+python run_multiseed.py
+
+echo "[3/4] Figures from archived manuscript-source values ..."
+python make_figures_manuscript_source.py
+
+echo "[4/4] Figures from current-run values ..."
+python make_figures.py
+
+echo "Collecting outputs into /results ..."
+cp -f results_aiot.json multiseed_results.json multiseed_results.csv "$RESULTS_DIR/" 2>/dev/null || true
+if [ -d "$FIG_DIR" ]; then cp -f "$FIG_DIR"/* "$RESULTS_DIR/" 2>/dev/null || true; fi
+
+echo "Done. See /results for regenerated data and figures."
+echo "Pristine delivered evidence is preserved read-only under /data."
